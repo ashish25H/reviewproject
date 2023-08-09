@@ -1,0 +1,28 @@
+.login-form-container {
+    align-items: center;
+    background-color: aquamarine;
+    height: 100vh;
+    display: flex;
+    scroll-behavior: auto;
+    justify-content: center;
+
+    .login-form {
+        background-color: bisque;
+        border-radius: 10px;
+        padding: 30px 40px;
+
+        #exampleInputEmail1-error {
+            color: red;
+            margin-top: 5px;
+        }
+
+        #exampleInputPassword1-error {
+            color: red;
+            margin-top: 5px;
+        }
+
+        .form-btn {
+            text-align: center;
+        }
+    }
+}
